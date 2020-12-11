@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8" />
 
@@ -15,83 +16,86 @@
 
     <!-- common external css style sheet -->
     <link rel="stylesheet" href="CSS/NisandiJayasuriya.css" />
-    
 
-    <!-- style sheet for social media icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 
+    <!-- reference kit for font awesome icons from w3schools -->
+	  <!-- link: https://www.w3schools.com/css/css_icons.asp -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
-  </head>
+    <!-- google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Castoro&display=swap" rel="stylesheet">
+    </head>
 
   <body>
     <header>
+      <a href="NisandiJayasuriya.html"><h2 style="color: #660066">Nisandi Jayasuriya</h2></a>
+    
       <!-- horizontal navigation bar -->
-     
-        <h2>Nisandi Jayasuriya</h2>
-          <a href="#" class="fa fa-twitter" id="tweet"></a>
-          <a href="https://www.linkedin.com/in/nisandi-jayasuriya-294327194" class="fa fa-linkedin" id="in"></a>
-          <a href="#" class="fa fa-facebook" id="fb"></a>
-          <a href="#" class="fa fa-youtube" id="youtube" ></a>
-          <a href="#" class="fa fa-pinterest" id="pin" ></a>
-          
-        <nav>
-          <a href="/" class="nav-tab">About</a>
-          <a href="/" class="nav-tab">Blog</a>
-          <a href="/" class="nav-tab">Travel</a>
-          <a href="/" class="nav-tab">Contact</a>
+      <div class="nav-icons"> 
+        <a href="https://www.linkedin.com/in/nisandi-jayasuriya-294327194" class="fab fa-linkedin-in"></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> </a>
+				<a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+				<a href="https://twitter.com/login"><i class="fab fa-twitter"></i> </a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+      </div>
+        
+      <nav>
+          <a href="About.html" class="nav-tab">About me</a>
+          <a href="Blog.html" class="nav-tab">Blog</a>
+          <a href="Contact.html" class="nav-tab">Stay in touch</a>
       </nav>
     </header>
-      
-        <!-- image credits: Jess Bailey-->
-        <img
-            src="Images/whiteImg.jpg"   
-            alt="top image"
-        />
- 
-    <!-- 3 main section columns-->
-    <section id="section-mainpage">
-      <section id="section-social-media">
-        <h3>Follow Me!&#128516;&#129505; </h3>
-        <aside class="socialMediaIconsSide">
-          <a href="#" class="fa fa-twitter"></a><br>
-          <a href="#" class="fa fa-linkedin"></a><br>
-          <a href="#" class="fa fa-facebook"></a><br>
-          <a href="#" class="fa fa-youtube"></a><br>
-          <a href="#" class="fa fa-pinterest"></a>
-        </aside>
-      </section>
 
-      <section id="section-mainpage-content">
-        <!-- intro -->
-        <a class="twitter-timeline" href="https://twitter.com/nisandij?ref_src=twsrc%5Etfw"></a> 
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </section>
+    <div class="div-mainpage">
+      <div class="mainpage-intro">
+          <div class="div-author">
+            <figure>
+              <img
+                src="Images/nisandiImg.jpg"
+                alt="image of Nisandi Jayasuriya"
+              />
+            </figure>
 
-      <section id="section-author">
-        <figure id="fig-nj">
-          <figcaption><h3><strong>About the Author</strong></h3></figcaption>
-          <img
-            src="Images/nisandiImg.png"
-            alt="image of Nisandi Jayasuriya"
-          />
-        </figure>
-        <aside id="about">
-          <p>
-            Nisandi Jayasuriya is an Undergraduate student of Informatics
-            Institute of Technology which is affiliated with the University of
-            Westminster.<br />
-            She is currently following her Bachelor's degree in Computer Science.
-          </p>
-        </aside>
+            <aside class="about">
+              <p>
+                Nisandi Jayasuriya is an Undergraduate student of Informatics
+                Institute of Technology which is affiliated with the University of
+                Westminster.<br>
+                She is currently following her Bachelor's degree in Computer Science.
+              </p>
+            </aside>
+          </div>
+        </div>
 
-        
-      </section>
+      <div class="mainpage-twitter-intro">
+        <div class="div-twitter-content">
+          <figure>
+            <img
+              src="Images/n-twitterImg.jpg"
+              alt="image of twitter profile"
+            />
+          </figure>
+          <!-- embedded twitter feed-->
+          <a class="twitter-timeline" data-width="500" data-height="500" data-theme="dark"
+          href="https://twitter.com/nisandij?ref_src=twsrc%5Etfw"></a> 
+          <script async src="https://platform.twitter.com/widgets.js"></script>
+        </div>
+      </div> 
+    </div>
 
-    </section>
-
-    <footer>
-      <button>Back to top</button>
-      <p>Copyright &copy; 2020 NISANDI JAYASURIYA. All Rights Reserved </p>
+    <footer class="footer">
+      <a href="NisandiJayasuriya.html" class="back">Back to top</a>
+      <!-- footer social media icons-->
+      <div class="div-footer-icons"> 
+        <a href="https://www.linkedin.com/in/nisandi-jayasuriya-294327194"> <i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> </a>
+        <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+        <a href="https://twitter.com/login"><i class="fab fa-twitter"></i> </a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <p>Copyright &copy; 2020 NISANDI JAYASURIYA. All Rights Reserved </p>
+      </div>
     </footer>
   </body>
 </html>
+

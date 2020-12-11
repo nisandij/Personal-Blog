@@ -16,79 +16,98 @@
     <!-- common external css style sheet -->
     <link rel="stylesheet" href="CSS/NisandiJayasuriya.css" />
 
-    <!-- style sheet for social media icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+    <!-- reference kit for font awesome icons from w3schools -->
+	  <!-- link: https://www.w3schools.com/css/css_icons.asp -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Castoro&display=swap" rel="stylesheet">
+    </head>
+
+  <body>
 
     <header>
+      <a href="NisandiJayasuriya.html"><h2 style="color: #660066">Nisandi Jayasuriya</h2></a>
+    
       <!-- horizontal navigation bar -->
-     
-        <h2>Nisandi Jayasuriya</h2>
-          <a href="#" class="fa fa-twitter" id="tweet"></a>
-          <a href="https://www.linkedin.com/in/nisandi-jayasuriya-294327194" class="fa fa-linkedin" id="in"></a>
-          <a href="#" class="fa fa-facebook" id="fb"></a>
-          <a href="#" class="fa fa-youtube" id="youtube" ></a>
-          <a href="#" class="fa fa-pinterest" id="pin" ></a>
-          
-        <nav>
-          <a href="/" class="nav-tab">About</a>
-          <a href="/" class="nav-tab">Blog</a>
-          <a href="/" class="nav-tab">Travel</a>
-          <a href="/" class="nav-tab">Contact</a>
+      <div class="nav-icons"> 
+        <a href="https://www.linkedin.com/in/nisandi-jayasuriya-294327194" class="fab fa-linkedin-in"></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> </a>
+				<a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+				<a href="https://twitter.com/login"><i class="fab fa-twitter"></i> </a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+      </div>
+        
+      <nav>
+          <a href="About.html" class="nav-tab">About me</a>
+          <a href="Blog.html" class="nav-tab">Blog</a>
+          <a href="Contact.html" class="nav-tab">Stay in touch</a>
       </nav>
     </header>
 
-    <img
-            src="Images/adastra1.jpg"   
-            alt="top image"
-        />
+    <div class="div-aboutpage-content">
+      <img
+          src="Images/adastraImg.jpg"   
+          alt="image-adastra"
+      />
 
-  <body>
- 
-    <!-- Two sections for personal info and LinkedIn profile -->
-      <section id="section-aboutpage-content">
-    
+        <div class="div-about-nisandi">
         <p>
           Nisandi Jayasuriya is an enthusiastic Computer Science Undergraduate at Informatics
           Institute of Technology which is affiliated with the University of
           Westminster.
         </p>
-        <p>She started her primary in 2003 at Royal Institute International School Nugegoda Branch and 
+
+        <figure class="about-img-vertical">
+          <figcaption><em>Prefect's Investiture 2019</em></figcaption>
+          <img src="Images/prefectImg.jpg">
+        </figure>
+
+        <p>She started her primary education in 2003 at Royal Institute International School Nugegoda Branch and 
           finished her secondary education in 2019 at Royal Institute International School Havelock Town Branch. 
           Being a member of the Prefects' Guild of Royal Institute, leadership attitude was brought up in her by fulfilling the duties 
           as a Junior Prefect as well as a Senior Prefect.
         </p>
+
+        <figure>
+          <figcaption><em>Aurora Science Day Exhibition</em></figcaption>
+          <img src="Images/auroraImg.jpg">
+        </figure>
+
         <p>She was a talented young athlete at School. She participated for Inter-branch Athletic Championship 
-          achieving Girls' Championship in years 2011, 2015 and 2016. She is passionate about art and showcased her 
+          achieving Girls' Championship in years 2011, 2015 and 2016. 
+        </p> 
+
+        <figure class="about-img-vertical">
+          <figcaption><em>Inter-branch Sportsmeet</em></figcaption>
+          <img src="Images/sportsmeetImg.jpg" >
+        </figure>
+
+        <p>She is passionate about art and showcased her 
           creative artistic skills in several Art Exhibitions. 
         </p>
-        <section class="section-images1">
-        <figure id="section-img1">
-          <figcaption><em>Aurora Science Day Exhibition</em></figcaption>
-          <img src="Images/auroraImg.jpg" alt="about-aurora team"/>
+
+        <figure>
+          <figcaption><em>Chairman of Royal Institute, Mr. G. T. Bandara inspecting Nisandi's Exhibit</em></figcaption>
+          <img src="Images/artImg.jpg">
         </figure>
 
-        <figure id="section-img2">
-          <figcaption><em>Annual Sportsmeet of Royal Institute</em></figcaption>
-          <img src="Images/sportsmeetImg.jpg" alt="about-sportsmeet"/>
-        </figure>
-      </section>
+      </div> 
+    </div>
 
-      <section class="section-images2">
-        <figure id="section-img3">
-          <figcaption><em>Prefects' Investiture 2019</em></figcaption>
-            <img src="Images/prefectImg.jpg" alt="about-investiture"/>
-        </figure>
-
-        <figure id="section-img4">
-          <figcaption><em>Chairman of Royal Institute, Mr G. T. Bandara inspecting Nisandi's exhibit</em></figcaption>
-            <img src="Images/artImg.jpg" alt="about-exhibition"/>
-        </figure>
-      </section>
-    </section>
-
-    <footer>
-      <p>Copyright &copy; 2020 NISANDI JAYASURIYA. All Rights Reserved </p>
+    <footer class="about-footer">
+      <a href="About.html" class="back">Back to top</a>
+      <!-- footer social media icons-->
+      <div class="div-footer-icons"> 
+        <a href="https://www.linkedin.com/in/nisandi-jayasuriya-294327194"> <i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i> </a>
+        <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+        <a href="https://twitter.com/login"><i class="fab fa-twitter"></i> </a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+        <p>Copyright &copy; 2020 NISANDI JAYASURIYA. All Rights Reserved </p>
+      </div>
     </footer>
   </body>
 </html>
